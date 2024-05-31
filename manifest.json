@@ -8,6 +8,9 @@
       "scripting"
     ],
     "author": "Davidjose47sudo",
+    "icons": {
+      "128": "128.png.png"
+      },
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
