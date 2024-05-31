@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Remove BairesDev Offers",
+    "version": "1.0",
+    "description": "Remove job offers from BairesDev LLC whenever the page loads or reloads",
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "author": "Davidjose47sudo",
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
